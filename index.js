@@ -177,7 +177,7 @@ function calc() {
     
     const carpriceandzbir = priceCar + zbir;
     const strahuvanya = includeInsurance ? (carpriceandzbir * 0.01) : 0;
-    let swift = (priceCar + zbir) * 0.026 + 100;
+    let swift = (priceCar + zbir) * 0.025 + 100;
 
     let acciseSum = 0;
     let mitoValue = 0;
